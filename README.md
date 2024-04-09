@@ -8,7 +8,7 @@ To get started with HatWifDog, follow these simple steps:
 
 1. **Switch Network to Base**: Ensure you have a compatible wallet installed and switch to Base blockchain.
 2. **Purchase AERO**: HatWifDog is currently available on the Aerodrome Finance. Purchase AERO on Base.
-3. **Swap for HatWifDog**: Use [Aerodrome](https://aerodrome.finance/swap?from=0x940181a94a35a4569e4529a3cdfb74e38fd98631&to=0xfffae6ee48ec3c4325814f30181319fad8fca2fd) to swap AERO for HatWifDog, more liquidity pools coming soon!
+3. **Swap for HatWifDog**: Use Aerodrome to swap AERO for HatWifDog, more liquidity pools coming soon!
 
 ## How to Contribute
 

@@ -63,11 +63,37 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
     string private _name;
     string private _symbol;
+    address private _owner;
+
+    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
+
 
     
     constructor(string memory name_, string memory symbol_) {
         _name = name_;
         _symbol = symbol_;
+        _owner = _msgSender();
+        emit OwnershipTransferred(address(0), _msgSender());
+    }
+
+     modifier onlyOwner() {
+        require(_owner == _msgSender(), "ERC20: caller is not the owner");
+        _;
+    }
+
+    function owner() public view returns (address) {
+        return _owner;
+    }
+
+    function transferOwnership(address newOwner) public onlyOwner {
+        require(newOwner != address(0), "ERC20: new owner is the zero address");
+        emit OwnershipTransferred(_owner, newOwner);
+        _owner = newOwner;
+    }
+
+    function removeOwner() public onlyOwner {
+        emit OwnershipTransferred(_owner, address(0));
+        _owner = address(0);
     }
 
     /**
@@ -227,10 +253,10 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         uint256 amount
     ) internal virtual {}
 }
-// File contracts/doginmeERC20.sol
+// File contracts/FIW.sol
 pragma solidity ^0.8.15;
 contract FIW is ERC20 { 
-    constructor() ERC20("FIW", "hatwifdog") {
+    constructor() ERC20("hatwifdog", "FIW") {
         _mint(msg.sender, 69000000000 * 10 ** decimals());
     } 
 }

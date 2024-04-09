@@ -203,7 +203,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/token2.sol": "IERC20"
+			"contracts/FIW.sol": "IERC20"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -217,12 +217,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/token2.sol": {
-			"keccak256": "0x37abbd4f2f8dd8261fcae61e561af134df5f0f929f8b4b3c35df2e1fa2aa634b",
+		"contracts/FIW.sol": {
+			"keccak256": "0xb012e4baae8cda8ce06047a357e95e6a1df0ecd28ac373cd15b95fc2fb11bebe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bf087d46bb7b3af1193478feeb37ad919939e273e370b377c38992b48a804c1a",
-				"dweb:/ipfs/QmeKu7DiBvVbKeK2mDFke5BhgRNc5h8MF3KqNERS9rXDJA"
+				"bzz-raw://ccbfc9cb280bbe79e8bcd84b33967674bcb34105bda6b12ced6dbe59a1582df6",
+				"dweb:/ipfs/QmfU6x6878E8jSXigSuCUVK7ZMPJQ5yM5xm9Z1a2fMMw8Q"
 			]
 		}
 	},
