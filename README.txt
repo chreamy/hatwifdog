@@ -1,28 +1,25 @@
-REMIX DEFAULT WORKSPACE
+# HatWifDog Token
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+Welcome to the official repository of HatWifDog Token - the latest meme token revolutionizing the crypto space! HatWifDog is a token under ERC-20 Standard.
 
-This workspace contains 3 directories:
+## Getting Started
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+To get started with HatWifDog, follow these simple steps:
 
-SCRIPTS
+1. **Switch Network to Base**: Ensure you have a compatible wallet installed and switch to Base blockchain.
+2. **Purchase AERO**: HatWifDog is currently available on the Aerodrome Finance. Purchase AERO on Base.
+3. **Swap for HatWifDog**: Use [Aerodrome](https://aerodrome.finance/swap?from=0x940181a94a35a4569e4529a3cdfb74e38fd98631&to=0xfffae6ee48ec3c4325814f30181319fad8fca2fd) to swap AERO for HatWifDog, more liquidity pools coming soon!
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+## How to Contribute
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+We welcome contributions from everyone! Here are a few ways you can help:
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+- **Spread the Word**: Share our project with your friends and on social media.
+- **Provide Feedback**: Use the [Issues](https://github.com/chreamy/hatwifdog/issues) section to give your feedback.
+- **Code Contributions**: Feel free to fork the repo and submit pull requests.
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+## Connect with Us
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+- Website: [hatwifdog.io](https://hatwifdog.io/)
+- Telegram: [HatWifDogOfficial](https://t.me/+_TGNQa15Kdw1YWQ9)
+- Twitter: [@HatWifDog](https://twitter.com/hatwifdog1)
